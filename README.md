@@ -76,6 +76,6 @@ If you would like to open the Burp State File that was created during the scan f
 
 ## Sponsors
 
-[![Black Hills Information Security](http://www.blackhillsinfosec.com/_images/BHIS-Logo.png)](http://www.blackhillsinfosec.com)
+[![Black Hills Information Security](http://static.wixstatic.com/media/75fce7_d7704144d33847a197598d7731d48770.png_srb_p_287_248_75_22_0.50_1.20_0.00_png_srb)](http://www.blackhillsinfosec.com)
 
 
