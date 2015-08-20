@@ -1,0 +1,26 @@
+{
+  "sites" : [{
+      "siteName" : "Acunetix",
+      "protocol" : "http",
+      "fqdn" : "testphp.vulnweb.com",
+      "port" : 80,
+      "path" : "/",
+      "userName" : "test",
+      "password" : "test",
+      "sessionToLoad" : "C:\\Users\\Carriero\\git\\AutomatedScans\\BurpStates\\testphp"
+    }
+  ],
+  "fileLocations" : [{
+      "burpJar" : "C:\\Users\\Carriero\\Documents\\Tools\\burpsuite_pro_v1.6.09.jar",
+      "reportOutputPath" : "C:\\Users\\Carriero\\Documents\\Tools\\AutomatedScans\\output\\",
+	  "nikto" : "C:\\Users\\Carriero\\Downloads\\nikto-master\\nikto-master\\program\\nikto.pl",
+	  "skipFish" : "C:\\Users\\Carriero\\Downloads\\nikto-master\\nikto-master\\program\\",
+      "skipFishDict" : "C:\\Users\\Carriero\\Downloads\\nikto-master\\nikto-master\\program\\dictionaries\\medium.wl"
+    }
+  ],
+  "burpConfigs" : [{
+      "memory" : "4096m",
+      "headless" : false
+    }
+	]
+  }

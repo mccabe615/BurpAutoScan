@@ -1,0 +1,22 @@
+{
+  "sites" : [{
+      "siteName" : "Acunetix",
+      "protocol" : "http",
+      "fqdn" : "testphp.vulnweb.com",
+      "port" : 80,
+      "path" : "/",
+      "sessionToLoad" : "/home/carriero/AutoScanWithBurp/BurpStates/testphp"
+    }
+  ],
+  "fileLocations" : [{
+      "burpJar" : "/home/carriero/Downloads/burpsuite_pro_v1.6.24.jar",
+      "reportOutputPath" : "/home/carriero/AutomatedScans/output/",
+      "nikto" : "/usr/bin/nikto"
+    }
+  ],
+  "burpConfigs" : [{
+      "memory" : "1024m",
+      "headless" : "false"
+    }
+	]
+  }
