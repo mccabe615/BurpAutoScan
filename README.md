@@ -42,11 +42,12 @@ Locate the provided config.json file and update the fileLocations section to loc
 
 Set the "sessionToLoad" path to the location of the Burp state file you have created.  If you don't have any specific configurations you want Burp to utilize, such as credentials for an authenticated scan, then you can simply point it to the "blankburpstate" session file provided in the BurpStates folder.  Otherwise you will need to create your own state file by using the Burp GUI.  Configure Burp with the credentials you want to use for the authenticated scan on the `Scanner-->Options` tab.  It is also a good idea to list certain problematic URLs as out-of-scope, such as the logout functionality.  To get the best results I recommend you do the spider and scan manually through the Burp GUI until you are able to get complete coverage of the application, then delete the history and scan results and save the state file for use by this tool.
 
-Note: a configWindows.json file is also provided as an example of how to set the file locations for Windows but make your changes in the config.json file both both *nix and Windows.
-
 Configure the `burpConfigs-->memory` setting (in config.json) to be about 50% of the available RAM on the machine.  For example, set it to "2048m" to allow Burp to use 2048 megabytes of RAM.
 
 It is anticipated that the Burp scans will be run unattended so the option to run Burp in headless mode (no User Interface) is configured by default.  If you want the UI to be visible while it runs so you can see what is happening, you can set `burpConfigs-->headless` to false.  When the scan completes, the Burp UI will exit.
+
+Note: a configWindows.json file is also provided as an example of how to set the file locations for Windows but make your changes in the config.json file both both *nix and Windows.
+
 #Usage
 ## Run the Script Manually
 
