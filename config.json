@@ -9,8 +9,8 @@
     }
   ],
   "fileLocations" : [{
-      "burpJar" : "/home/carriero/Downloads/burpsuite_pro_v1.6.24.jar",
-      "reportOutputPath" : "/home/carriero/AutomatedScans/output/",
+      "burpJar" : "/home/carriero/Documents/tools/burp/burpsuite_pro_v1.6.24.jar",
+      "reportOutputPath" : "/home/carriero/ScanOutput/",
       "nikto" : "/usr/bin/nikto"
     }
   ],
