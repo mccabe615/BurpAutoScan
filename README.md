@@ -1,6 +1,9 @@
 AutoScanWithBurp
 ================
 This project contains a Burp Extension and a python script for invoking the extension to perform automated **and**  authenticated scans against all URL's listed in a configuration file. Authentication is accomplished through Burp State files. Optionally, a Nikto scan can be invoked as well.
+
+The Burp Extension is really just the Carbonator Extension by Integris Security with slight modifications.
+
 #Configuration
 ## Set up Burp
 Install Burp (Pro Edition, because scanning is not available with free version)
