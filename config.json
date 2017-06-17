@@ -2,21 +2,21 @@
   "sites" : [{
       "siteName" : "Acunetix",
       "protocol" : "http",
-      "fqdn" : "testphp.vulnweb.com",
-      "port" : 80,
+      "fqdn" : "127.0.0.1",
+      "port" : 3000,
       "path" : "/",
-      "sessionToLoad" : "/home/carriero/AutoScanWithBurp/BurpStates/testphp"
+      "sessionToLoad" : "/Users/mmccabe/testing/tools/autoscanwithburp/BurpStates/blankburpstate"
     }
   ],
   "fileLocations" : [{
-      "burpJar" : "/home/carriero/Documents/tools/burp/burpsuite_pro_v1.6.24.jar",
-      "reportOutputPath" : "/home/carriero/ScanOutput/",
+      "burpJar" : "/Users/mmccabe/Desktop/burpsuite_pro.jar",
+      "reportOutputPath" : "/Users/mmccabe/Desktop/output",
       "nikto" : "/usr/bin/nikto"
     }
   ],
   "burpConfigs" : [{
       "memory" : "1024m",
-      "headless" : "false"
+      "headless" : "true"
     }
 	]
   }
